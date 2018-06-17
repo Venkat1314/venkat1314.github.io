@@ -8,6 +8,11 @@ h1
 	text-decoration: underline;  
 	text-shadow: 2px 1px black;
 }
+h2
+{
+	color: yellow;
+	text-decoration: underline;
+}
 h3
 {
 	text-align: center;
@@ -19,6 +24,7 @@ p.one
 }
 h2.one
 {
+	color: black;
 	text-decoration: underline;
 }
 a
@@ -134,27 +140,45 @@ span.psw {
        width: 100%;
     }
 }
+p.nestify
+{
+	border: 5px dotted red;	
+	
+}
+img
+{
+	opacity: 0.5;
+}
+img.kk
+{
+	opacity:1;
+}
 
+div.two
+{
+	background-image: url("i2.jpg");
+	opacity: 0.5;
+}
 </style>
 </head>
 <body>
-<p class="nestify" style="margin-left:350px; font-size:25px">
-             Nestify Investors                       <button style="margin-left:750px; font-size:20px" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> <a href="signup.html">Sign Up</a>
+<p class="nestify" style="margin-left:300px; font-size:25px; margin-right:300px">
+             Nestify Investors                       <button style="margin-left:500px; font-size:20px" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> <a href="signup.html">Sign Up</a>
 
 </p>
-<div>
+<div class="one">
 <h1>Get Plugged Into An Incubator-The Future Of Your Startup Could Depend On It</h1>
 <p class="one">
-	<image src="image.jpg" style="width:750px;  height:500px;" align="right">
-	What's the better path to success: be part of a griup or go it alone?For many entrepreneurs 	in the tech space, being part of something larger has helped them get their bussiness off 		the ground more quickly and smoothly. Ultimately an ncubator can be the perfect bridge to 		make the big step from idea to execution.
+	<image class="kk" src="image.jpg" style="width:750px;  height:500px;" align="right">
+	What's the better path to success: be part of a group or go it alone?For many entrepreneurs 	in the tech space, being part of something larger has helped them get their bussiness off 		the ground more quickly and smoothly. Ultimately an ncubator can be the perfect bridge to 		make the big step from idea to execution.
 	<br />
 	<br />
 </p>
 <div class="sign">
 <p class="sign">
-If you are willing to provide a base for others and willing to join with us after listening the role of incubator in startups please click here <h3 id="sign">Sign Up</h3>
+If you are willing to provide a base for others and willing to join with us after listening the role of incubator in startups please click here <a href="signup.html">Sign Up</a>
 </p>
-</div>
+
 <p>
 	<h2 class="one">
 	Benefits Of Startup Incubators:
@@ -167,7 +191,10 @@ If you are willing to provide a base for others and willing to join with us afte
 	</ul>
 </p>
 </div>
-<div>
+<br />
+<br />
+<br />
+<div class="two">
 <h2 id="first">
 	Fewer Mundane Tasks, More Product Development
 </h2>
