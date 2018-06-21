@@ -107,21 +107,11 @@ select
     <input type="text" placeholder="Enter Your State" name="state" required>
     
     <label for="city"><b>City</b></label>
+
     <input type="text" placeholder="Enter Your City" name="city" required>
-    <label for="who are you representing"><b>WHO ARE YOU REPRESENTING?*</b></label>
-   <div>
-    <input type="radio" name="represent" value="individual investor" checked>Individual Investor <br>
-    <input type="radio" name="represent" value="accelerator/incubator" >Accelerator/Incubator <br>
-    <input type="radio" name="represent" value="family office" >Family Office <br>    
-    <input type="radio" name="represent" value="vc fund" >VC Fund <br>
-    <input type="radio" name="represent" value="angel network" >Angel Network <br>
-    <input type="radio" name="represent" value="Corporate Fund" >Corporate Fund <br>
-    </div>
-    <br />
-    <br />
-  	
-	<label for="HOW DID YOU CAME TO HEAR ABOUT NESTIFY?"><b>HOW DID YOU CAME TO HEAR ABOUT NESTIFY?</b></label>
-	<div>
+
+<p clas="z" style="font-weight:bold">HOW DID YOU CAME TO HEAR ABOUT NESTIFY?</p>
+
 	<select name="reference" placeholder="Please Select One">
 	<option value="referral from investor">Referral From Investor</option>
 	<option value="referral from startup">Referral From Startup</option>
@@ -130,10 +120,14 @@ select
 	<option value="social media">Social Media</option>
 	<option value="angel network membership">Angel Network Membership</option>
 	<option value="others">Others</option>
-	</div>
-    <br />
-    <br />
+
+  	
+	
+<p>WHAT ARE YOU REPRESENTING?</p>
     
+    <label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
     <div class="clearfix">
@@ -142,6 +136,5 @@ select
     </div>
   </div>
 </form>
-
 </body>
 </html>
