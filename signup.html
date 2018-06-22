@@ -56,6 +56,25 @@ button:hover {
     padding: 10px;
 }
 
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.Nestify {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
 /* Clear floats */
 .clearfix::after {
     content: "";
@@ -78,9 +97,13 @@ select
 <body>
 
 <form align="center" action="/action_page.php" style="border:1px solid #ccc">
-  <div class="container">
+   
+   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
+    <div class="imgcontainer">
+    <img src="nestify.jpg" alt="Nestify" class="Nestify">
+  </div>
     <table align="center">
      <tr>
      <td>
@@ -100,7 +123,7 @@ select
     <td>
      <input type="text" placeholder="Enter Mobile Numebr" name="cn" required></td>
     </tr>
-    <tr>
+	    <tr>
     <td>
     <label for="email"><b>Email</b></label></td>
     <td>
